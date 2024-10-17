@@ -1,0 +1,93 @@
+body {
+	background-color: gray;
+}
+
+.global {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.rectangle {
+    background-color:rgb(63, 62, 62);
+    color: white;
+    padding-bottom: 5%;
+    border-radius: 0px 0px 12px 12px;
+    width: 32%;
+}
+
+.img1 {
+    margin-top: 5%;
+    border-radius: 12px 12px 0px 0px;
+	width: 507px;
+	height: 220px;
+}
+
+.img {
+    margin-left: 1.5%;
+    margin-top: 3%;
+    border-radius: 15px;
+    width: 150px;
+    height: 150px;
+}
+
+.image2 {
+    width: 10%;
+}
+
+.image1 {
+    width: 15%;
+}
+
+hr {
+    margin-top: 10%;
+    width: 400px;
+    height: 5px;
+    background-color: white;
+    border-radius: 15px;
+
+}
+
+.tout {
+    display: flex;
+    flex-direction: column;
+}
+
+.demi {
+    padding-left: 30%;
+    padding-top: 2%;
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+}
+
+.identification {
+    display: flex;
+    justify-content: end;
+    flex-direction: column;
+    width: 50%;
+}
+
+button {
+    background-color: rgba(4, 173, 4, 0.712);
+    color: white;
+}
+
+.fin {
+    display: flex;
+    justify-content: space-around;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+}
+
+input {
+    border-radius: 12px;
+    height: 30px;
+    background-color: #3e5662;
+    border:rgb(63, 62, 62);
+}
